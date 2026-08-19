@@ -1,0 +1,11 @@
+﻿entity_name,entity_type,seed_mentions,degree,supernode,edge_fetch_cap_applied
+Microsoft,Company,11,105,True,50
+ServiceNow,Company,7,126,True,50
+HPE,Company,6,65,False,65
+ChatGPT,Company,5,57,False,57
+Ericsson,Company,5,113,True,50
+NVIDIA,Company,5,104,True,50
+AI Lighthouse,Company,4,49,False,49
+AMD,Company,4,49,False,49
+AWS,Company,4,49,False,49
+Accenture,Company,4,49,False,49

@@ -1,0 +1,21 @@
+﻿group,metric,flat_mean,graph_mean,delta_graph_minus_flat,analysis
+cross-doc,Comprehensiveness,3.0,5.0,2.0,GraphRAG improves answer quality on relational questions.
+cross-doc,Faithfulness,3.0,5.0,2.0,GraphRAG improves answer quality on relational questions.
+cross-doc,Multi-hop reasoning,2.0,5.0,3.0,GraphRAG improves answer quality on relational questions.
+cross-doc,Latency (s),0.972,2.794,1.822,Flat RAG is cheaper/faster; GraphRAG spends more context on provenance.
+cross-doc,Token usage,712.5,1572.5,860.0,Flat RAG is cheaper/faster; GraphRAG spends more context on provenance.
+factoid,Comprehensiveness,4.0,5.0,1.0,GraphRAG improves answer quality on relational questions.
+factoid,Faithfulness,4.0,5.0,1.0,GraphRAG improves answer quality on relational questions.
+factoid,Multi-hop reasoning,3.0,4.0,1.0,GraphRAG improves answer quality on relational questions.
+factoid,Latency (s),0.742,1.484,0.742,Flat RAG is cheaper/faster; GraphRAG spends more context on provenance.
+factoid,Token usage,542.4,986.8,444.4,Flat RAG is cheaper/faster; GraphRAG spends more context on provenance.
+multi-hop,Comprehensiveness,3.0,5.0,2.0,GraphRAG improves answer quality on relational questions.
+multi-hop,Faithfulness,4.0,5.0,1.0,GraphRAG improves answer quality on relational questions.
+multi-hop,Multi-hop reasoning,2.0,5.0,3.0,GraphRAG improves answer quality on relational questions.
+multi-hop,Latency (s),0.9,2.42,1.52,Flat RAG is cheaper/faster; GraphRAG spends more context on provenance.
+multi-hop,Token usage,638.957,1421.826,782.87,Flat RAG is cheaper/faster; GraphRAG spends more context on provenance.
+overall,Comprehensiveness,3.1,5.0,1.9,GraphRAG improves answer quality on relational questions.
+overall,Faithfulness,3.56,5.0,1.44,GraphRAG improves answer quality on relational questions.
+overall,Multi-hop reasoning,2.1,4.9,2.8,GraphRAG improves answer quality on relational questions.
+overall,Latency (s),0.916,2.491,1.575,Flat RAG is cheaper/faster; GraphRAG spends more context on provenance.
+overall,Token usage,661.66,1444.62,782.96,Flat RAG is cheaper/faster; GraphRAG spends more context on provenance.

@@ -1,0 +1,13 @@
+﻿left_entity,right_entity,similarity,decision,reason,threshold,lexical_guard_ratio_min
+Microsoft Corp,Microsoft,0.96,MERGE_MANUAL,ticker/company suffix alias,0.9,0.72
+Google LLC,Google,0.95,MERGE_MANUAL,legal suffix alias,0.9,0.72
+Meta Platforms Inc,Meta,0.93,MERGE_MANUAL,known company alias,0.9,0.72
+Aeris Communications,Aeris,0.91,MERGE_VECTOR,high cosine plus lexical containment,0.9,0.72
+ServiceNow Inc,ServiceNow,0.94,MERGE_VECTOR,corporate suffix removed,0.9,0.72
+NVIDIA Corporation,NVIDIA,0.92,MERGE_VECTOR,corporate suffix removed,0.9,0.72
+Apple,Apple Music,0.88,REJECT_GUARD,product/service contains company name but is distinct,0.9,0.72
+Sam Altman,Steve Altman,0.87,REJECT_GUARD,person names share surname but given names differ,0.9,0.72
+AI Lighthouse,Lighthouse AI,0.86,REJECT_GUARD,word-order similarity but different named products,0.9,0.72
+Connected Vehicle Cloud,Google Cloud,0.85,REJECT_GUARD,shared cloud token is too generic,0.9,0.72
+IoT Accelerator,AI Accelerator,0.84,REJECT_GUARD,technology modifier changes meaning,0.9,0.72
+Ericsson IoT Accelerator,IoT Accelerator,0.9,MERGE_VECTOR,same named Ericsson business asset,0.9,0.72

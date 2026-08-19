@@ -1,0 +1,15 @@
+{
+  "golden_questions": 50,
+  "groups": {
+    "multi-hop": 23,
+    "cross-doc": 22,
+    "factoid": 5
+  },
+  "outputs": [
+    "graphrag_eval_results.csv",
+    "graphrag_vs_flatrag_summary.csv",
+    "entity_resolution_audit.csv",
+    "graph_health_checks.csv"
+  ],
+  "note": "Offline deterministic artefacts generated from the instructor golden dataset."
+}
